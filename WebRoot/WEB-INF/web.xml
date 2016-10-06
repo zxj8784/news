@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>News_add</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.News_add</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Topic_add</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.Topic_add</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>index</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.index</servlet-class>
+    <init-param>
+      <param-name>charSetContent</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doLogin</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.doLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>news_delete</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.news_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>topic_delete</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.topic_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>context_control</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.context_control</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>news_update</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.news_update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>topic_update</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.topic_update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>context_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.context_init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>admin_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.admin_init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>news_add_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.news_add_init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>topic_add_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.topic_add_init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>news_update_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.news_update_init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>topic_update_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.topic_update_init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>topic_list_init</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.topic_list_init</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>news_upload</servlet-name>
+    <servlet-class>com.bdqn.news.servlet.news_upload</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>News_add</servlet-name>
+    <url-pattern>/News_add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Topic_add</servlet-name>
+    <url-pattern>/Topic_add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doLogin</servlet-name>
+    <url-pattern>/doLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>news_delete</servlet-name>
+    <url-pattern>/news_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>topic_delete</servlet-name>
+    <url-pattern>/topic_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>context_control</servlet-name>
+    <url-pattern>/context_control</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>news_update</servlet-name>
+    <url-pattern>/news_update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>topic_update</servlet-name>
+    <url-pattern>/topic_update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>context_init</servlet-name>
+    <url-pattern>/context_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>admin_init</servlet-name>
+    <url-pattern>/admin_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>news_add_init</servlet-name>
+    <url-pattern>/news_add_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>topic_add_init</servlet-name>
+    <url-pattern>/topic_add_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>news_update_init</servlet-name>
+    <url-pattern>/news_update_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>topic_update_init</servlet-name>
+    <url-pattern>/topic_update_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>topic_list_init</servlet-name>
+    <url-pattern>/topic_list_init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>news_upload</servlet-name>
+    <url-pattern>/news_upload</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+</web-app>
